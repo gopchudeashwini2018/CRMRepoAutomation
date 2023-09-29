@@ -90,6 +90,21 @@ public class LoginPageTest extends BaseClass {
 	   objhomepage=objLoginPage.login("Freecrmlearing", "Crm@123");
     	
      }
+   
+   @Test(priority=10)
+   public void testRepo() throws IOException 
+   {
+   	System.out.println("Verification for test Repo");
+   	
+    }
+   
+   @Test(priority=11)
+   public void testRepo1() throws IOException 
+   {
+   	System.out.println("Verification for test Repo 1");
+   	
+    }
+   
     
    @AfterClass()
   public void tearDown()
