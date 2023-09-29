@@ -98,6 +98,13 @@ public class LoginPageTest extends BaseClass {
    	
     }
    
+   @Test(priority=11)
+   public void testRepo1() throws IOException 
+   {
+   	System.out.println("Verification for test Repo 1");
+   	
+    }
+   
     
    @AfterClass()
   public void tearDown()
